@@ -1,0 +1,52 @@
+# Note: originally from 6.034 MIT Fall 2020
+# graphs for lab1 tests.py, parsed by read_graphs.py
+# note that syntax requires comments to be on new lines beginning with '#'
+
+
+graph GRAPH_0
+nodes n1 n2 n3 n4
+edges
+n1 n2 1
+n2 n3 1
+n3 n4 1
+n1 n4 1
+
+
+# basic graph with edge weights and heuristic
+graph GRAPH_1
+nodes a b c d
+edges
+a b 1
+a c 1
+b c 1
+b d 1
+c d 1
+
+
+# graph to differentiate between most types of search
+graph GRAPH_2
+nodes S A B C D X Y
+edges
+S A 1
+S B 1
+A C 1
+A D 1
+B C 1
+B X 1
+B Y 1
+C D 1
+C Y 1
+
+
+
+graph GRAPH_3
+nodes s x y z w g
+edges
+s x 1
+s y 1
+s z 1
+x w 1
+y w 1
+z w 1
+w g 1
+
